@@ -14,21 +14,6 @@ torch                         1.0.1
 torchvision                   0.2.2
 sklearn                       0.20.2
 
-## Directory tree
-├── data
-├── README.md
-├── results
-│   ├── logs
-│   │   ├── cifar10
-│   │   └── twomoon
-│   └── trained_models
-│       ├── cifar10
-│       └── twomoon
-├── main.py
-├── model.py
-├── trainer.py
-└── utils.py
-
 ## Commands to run experiments for a binary classification (for training and evaluation)
 
 To run experiments for the two-moon dataset for the best configuration in Table 3 (KCM(h=0.1,N=1000)) in the Supplementary material, please insert the following command at the directory where main.py locates:
